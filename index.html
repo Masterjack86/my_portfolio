@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ABC Consultant Portfolio</title>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <section id="home">
+      <header>
+        <h1 class="styled-name">John Smith</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#recommendations">Recommendations</a></li>
+          </ul>
+        </nav>
+      </header>
+    </section>
+
+    <section id="about">
+      <h2 style="color: #2A0134;"><strong>Hi, I am John Smith...</strong></h2>
+      <div class="about-card">
+        <img src="https://codecapsules.io/wp-content/uploads/2023/07/host-your-front-end-developer-portfolio-1-768x768.png" width="150" height="150" alt="Profile img">
+        <p>"I am a passionate web developer with a solid foundation in web technologies. Over the past few years, I’ve honed my skills and gained practical experience in creating dynamic and user-friendly websites. 
+            My journey began with curiosity and a desire to build things that matter."</p>
+      </div>
+    </section>
+
+    <secton id="skills">
+      <h2>Skills</h2>
+      <div class="skills-section">
+        <div class="skill-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLaCvUxlIz7E0t1_H7VlCHUwEMv14umL1kXr6Hha043g&s" alt="HTML Logo">
+          <p><strong>HTML</strong></p>
+          <p>2 years experience</p>
+        </div>
+
+        <div class="skill-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3kIk2RLH9ERQKCCnPTnAB8gej9w2H7TfXnePhIo3GQw&s" alt="CSS Logo">
+          <p><strong>CSS</strong></p>
+          <p>2 years experience</p>
+        </div>
+
+        <div class="skill-card">
+          <img src="https://cdn.iconscout.com/icon/free/png-256/free-javascript-2038874-1720087.png" alt="JS Logo">
+          <p><strong>Java Script</strong></p>
+          <p>2 years experience</p>
+        </div>
+
+        <div class="skill-card">
+          <img src="https://cdn0.iconfinder.com/data/icons/logos-brands-in-colors/128/react-512.png" alt="React">
+          <p><strong>React</strong></p>
+          <p>2 years experience</p>
+        </div>
+
+        <div class="skill-card">
+          <img src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" alt="JS Logo">
+          <p><strong>Node.js</strong></p>
+          <p>1.5 years experience</p>
+        </div>
+
+      </div>
+    </secton> <br />
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <img src="https://e7.pngegg.com/pngimages/833/426/png-clipart-black-shopping-cart-icon-for-free-black-shopping-cart.png" width="25" height="25" alt="No Image">
+        <h3>E-commerce Website</h3> <br /> <br /> <br />
+        <p>Created an e-commerce site where users can browse products, add items to their cart, and proceed to checkout. 
+        Implemented features like product categories, user profiles, and payment integration using React.</p>
+      </div>
+
+      <div class="project">
+        <img src="https://www.vhv.rs/dpng/d/500-5002380_icon-film-film-icon-hd-png-download.png" width="25" height="25" alt="No Image">
+        <h3>Movie Database</h3> <br /> <br /> <br />
+        <p>Combined both API and database knowledge to build a movie database. Used the IMDb API to fetch movie details like names, ratings, release dates, 
+            and displayed them on the website. Also added features like searching, sorting, and filtering.
+        </p>
+      </div>
+
+      <div class="project">
+        <img src="https://cdn-icons-png.flaticon.com/512/1198/1198409.png" width="25" height="25" alt="No Image">
+        <h3>Fashion Website</h3> <br /> <br /> <br />
+        <p>Combined both API and database knowledge to build a movie database. Used the IMDb API to fetch movie details like names, ratings, release dates, 
+            and displayed them on the website. Also added features like searching, sorting, and filtering.
+        </p>
+      </div>
+
+    </section> <br />
+
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div class="recommendation">
+
+        <textarea id="entry" rows="2" cols="85" placeholder="Write your recommendation here..."> </textarea> <br />
+        <button onclick="addEntry()">Add Entry</button>
+        <div id="entries"> </div>
+
+        <p>"John is an exceptional web developer. Highly recommended!"</p>
+        <p>- Former Employer 1</p>
+
+      </div>
+
+    </section>
+
+    <div id="go-home" class="iconbutton">
+      <a href="#home">
+        <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/up-arrow-37-520802.png" />
+      </a>
+    </div>
+
+    <footer>
+      <p>© 2024 ABC Consultants</p>
+    </footer>
+
+  </body>
+
+</html>
